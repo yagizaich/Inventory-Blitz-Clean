@@ -41,6 +41,21 @@ body {
     gap: 8px;
 }
 
+.user-group {
+    display: inline-block;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.user-group label {
+    font-size: 14px;
+    color: #444;
+    cursor: pointer;
+    align-items: center;
+    gap: 8px;
+}
+
 .inventory-card input[type="number"] {
     padding: 10px;
     border: 1px solid #ccc;
